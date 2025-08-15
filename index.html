@@ -6,7 +6,7 @@
     <title>My Website</title>
 
     <link rel="stylesheet" href="styles.css">
-    
+
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
@@ -14,24 +14,53 @@
         <div class="bg-gray-200 rounded-full h-[100px] w-[100px] main-profile"></div>
         <nav>
             <ul class="flex space-x-6 text-xl">
-                <li><a href="#" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">Home</a></li>
-                <li><a href="#" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">Our Profile</a></li>
-                <li><a href="#" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">Portofolio</a></li>
-                <li><a href="#" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">Message Us</a></li>
+                <li><a href="#home" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">Home</a></li>
+                <li><a href="#profile" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">My Profile</a></li>
+                <li><a href="#porto" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">Portofolio</a></li>
+                <li><a href="#message" class="border border-transparent py-2 px-4 rounded-lg hover:bg-gray-200 transition font-[700]">Message Us</a></li>
             </ul>
         </nav>
     </header>
 
 
     <main>
-        <section></section>
+        <section id="home" class="h-[400px] bg-gray-200">
+            <div class="flex flex-col items-center justify-center h-full">
+                <h1 class="text-6xl font-[800]">Halo <span id="userName">User</span></h1>
+                <p class="text-xl font-[500]">Selamat datang di website saya</p>
+            </div>
+        </section>
 
-        <section></section>
+        <section id="profile" class="text-center h-[400px] bg-gray-200">
+            <header>
+                <h2 class="text-3xl font-[800]">My Profile</h2>
+            </header>
 
-        <section></section>
+                <p class="text-left font-[500]">Saya Muhammad Naufal Nurdzacky</p>
+        </section>
+
+        <section id="porto" class="text-center h-[400px] bg-gray-200">
+            <header>
+                <h2 class="text-3xl font-[800]">Portofolio</h2>
+            </header>
+
+            <p class="font-[500]">Saya Muhammad Naufal Nurdzacky</p>
+        </section>
+
+        <section id="message" class="text-center h-[400px] bg-gray-200">
+            <header>
+                <h2 class="text-3xl font-[800]">Message Us</h2>
+            </header>
+
+            <form>
+                <label for="user-message"></label>
+            </form>
+        </section>
     </main>
 
 
     <footer></footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
