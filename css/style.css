@@ -6,7 +6,6 @@ body {
     transition: background-color 0.3s;
 }
 
-/* Padding konsisten untuk setiap section */
 section {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -20,24 +19,21 @@ section.visible {
     transform: translateY(0);
 }
 
-/* Penyesuaian untuk section home */
 #home {
     padding-top: 0;
     padding-bottom: 0;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Efek hover pada link navigasi */
 nav a:hover {
-    color: #3b82f6; /* Warna biru tailwind */
+    color: #3b82f6;
     transform: translateY(-2px);
     transition: color 0.3s, transform 0.3s;
 }
 
-/* Styling untuk kartu achievement */
 .achievement-card {
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -47,7 +43,6 @@ nav a:hover {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-/* Styling untuk form */
 form input, form textarea {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
@@ -57,7 +52,6 @@ form input:focus, form textarea:focus {
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
 }
 
-/* Styling untuk tombol */
 button {
     transition: background-color 0.3s, transform 0.3s;
 }
